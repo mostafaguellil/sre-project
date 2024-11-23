@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRE App</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Heading Styling */
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #555;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        /* Paragraph Styling */
+        p {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Link Styling */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #4CAF50;
+            color: white;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f8f8f8;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        td {
+            background-color: #fff;
+            font-size: 1.1em;
+        }
+
+        /* Table Hover Effect */
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.6em;
+            }
+
+            a {
+                font-size: 1em;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello & Welcome $EndUser</h1>
+    <p>My name is Mostafa GUELLIL, passionate SRE in the making<br>
+        Through this page, I share my experiences, projects, and learnings as I explore Docker, CI/CD pipelines, and cloud-native technologies. Follow me on GitHub to see how I apply DevOps principles to real-world problems</p>
+    <div>
+        <h2>Click below to see users from the database:</h2>
+        <a href="/index.php">Users</a>
+    </div>
+
+    <div>
+        <h2>Access phpMyAdmin:</h2>
+        <a href="https://pma.localhost/">Click here</a>
+    </div>
+
+    <div>
+        <h2>Access Traefik:</h2>
+        <a href="https://traefik.localhost/">Click here</a>
+    </div>
+</body>
+
+</html>
